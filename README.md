@@ -10,7 +10,7 @@ Just run it with Easy-Vuln-Finder.bat. Just click Easy-Vuln-Finder.bat taking pe
 # Dont Forget It!
 This app is developing yet. So Easy Vuln Finder is missing.
 # Screenshots
-![Screenshot](https://github.com/ysufNegis/-Developing-yet...-Easy-Vuln-Finder-Mini-Cyber-Security-Tool-For-Windows-Users/blob/main/secreenshot.png)
+![Screenshot](https://github.com/ysufNegis/Easy-Vuln-Finder-For-Windows-Users...-Developed-Yet/blob/main/bvc.PNG)
 # Sources
   - Nmap.org
   - sqlmap.org
