@@ -1,4 +1,4 @@
-﻿import os , sys , string
+import os , sys , string
 import time as wait
 
 #Classes
@@ -55,7 +55,7 @@ def wafbypass(input):
     os.system("cls")
     print("Start Scanning...")
     wait.sleep(4)
-    os.system("nmap.exe -A -ip -D 1.1.1.1,3.4.4.4,8.8.8.8 "+input)
+    os.system("nmap.exe --script firewall-bypass "+input)
 
 def topports(input):
     os.system("cls")
@@ -104,7 +104,8 @@ def httpconfig(input):
     print("Start Scannning...")
     wait.sleep(4)
     os.system("nmap.exe -n -p80 --script http-config-backup "+input)
-
+def clear(input):
+	os.system("cls")
 
 count = 1
 
@@ -374,7 +375,8 @@ easyvuln > """)
 For Exit : "quit" 
 For go main page : "home" 
 For banner : "banner" 
-For owner : "owner" """)
+For owner : "owner" 
+""")
         wait.sleep(2)
         
 
