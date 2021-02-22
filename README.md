@@ -6,7 +6,7 @@ There are only few cyber security tools for Windows and adapted from linux on th
 # Well, Is This Open Source ?
 Yeah, of course you can using my codes and you can developing. You can use it completely free.
 # How Is Using Easy Vuln Finder?
-Just run it with Easy-Vuln-Finder.bat. Just click Easy-Vuln-Finder.bat taking permissons for adminastrator
+Just run it with Easy-Vuln-Finder.bat. Just click Easy-Vuln-Finder.bat taking permissons for adminastrator. If this tool can't running such you enter  "python Easy_Vuln_Finder.py"
 # Dont Forget It!
 This app is developing yet. So Easy Vuln Finder is missing.
 # Screenshots
