@@ -106,7 +106,21 @@ def httpconfig(input):
     os.system("nmap.exe -n -p80 --script http-config-backup "+input)
 def clear(input):
 	os.system("cls")
-
+def traceroute(input):
+    os.system("cls")
+    print("Start Scanning...")
+    wait.sleep(4)
+    os.system("nmap.exe --traceroute "+input)
+def tcpnull(input):
+    os.system("cls")
+    print("Start Scanning...")
+    wait.sleep(4)
+    os.system("nmap.exe -sN "+input)
+def xmasscan(input):
+    os.system("cls")
+    print("Start Scanning...")
+    wait.sleep(4)
+    os.system("nmap.exe -sN "+input)
 count = 1
 
 os.system("cls")
@@ -131,8 +145,11 @@ while(count<2):
 4)Only TCP Scanning
 5)Only UDP Scanning
 6)Vulnerability Scanning(CVE Searching)
-7)Extra Categories
-8)Commands
+7)Traceroute
+8)TCP NULL Scan
+9)Xmas Scan
+10)Extra Categories
+11)Commands
 
 easyvuln > """)
     
@@ -195,7 +212,7 @@ easyvuln > """)
             continue
         else:
             udpscan(target)
-    elif a == "7":
+    elif a == "10":
         os.system("cls")
         count2 = 1
         while(count2<2):
@@ -366,10 +383,40 @@ easyvuln > """)
             else:
                 print("Invalid Select")
 
+    elif a == "7":
+        target = input("Target Web Site | easyvuln > ") 
+        if target == "quit":
+            sys.exit()
+        elif target == "home":
+            os.system("cls")
+            continue
+        else:
+            traceroute(target)
+    elif a == "8":
+        target = input("Target Web Site | easyvuln > ") 
+        if target == "quit":
+            sys.exit()
+        elif target == "home":
+            os.system("cls")
+            continue
+        else:
+            tcpnull(target)
+    elif a == "9":
+        target = input("Target Web Site | easyvuln > ") 
+        if target == "quit":
+            sys.exit()
+        elif target == "home":
+            os.system("cls")
+            continue
+        else:
+            xmasscan(target)
+
+
+
 
 
             
-    elif a == "8":
+    elif a == "11":
         os.system("cls")
         print("""
 For Exit : "quit" 
