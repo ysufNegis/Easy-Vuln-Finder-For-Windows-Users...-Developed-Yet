@@ -110,7 +110,7 @@ easyvuln > """)
                 while(count2<2):
                     banner()
 
-                    select = input("1)Basic Dos Atatck 2)Comming Later...")
+                    select = input("1)Basic Dos Atatck 2)Comming Later... \neasyvuln > ")
                     if select == "home":
                         count2 +=1
                     elif select == "quit":
