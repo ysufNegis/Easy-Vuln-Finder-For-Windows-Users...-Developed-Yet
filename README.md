@@ -18,6 +18,7 @@ This app is developing yet. So Easy Vuln Finder is missing.
   - https://github.com/bambish/ScanQLi
   - https://github.com/ysufNegis/Easy-Vuln-Finder-DDOS-Tool----Cyber-Security-For-Windows-Users
   - https://github.com/ysufNegis/Nmap-Interface-For-Easy-Vuln-Finder
+  - https://github.com/ysufNegis/Sqlmap-Interface
 # Who Am I ?
   - I'm Yusuf Furkan Negiş
   - from Turkey
