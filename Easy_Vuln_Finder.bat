@@ -1,4 +1,4 @@
 cls
-python Easy_Vuln_Finder.py
+python evf.py
 
 pause
