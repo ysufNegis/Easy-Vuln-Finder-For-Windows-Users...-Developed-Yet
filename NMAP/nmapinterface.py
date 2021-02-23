@@ -159,20 +159,20 @@ try:
         
 
         a = input("""
-    1)Easy Scanning
-    2)Version Scanning
-    3)Agresive Scanning
-    4)Only TCP Scanning
-    5)Only UDP Scanning
-    6)Vulnerability Scanning(CVE Searching)
-    7)Traceroute
-    8)TCP NULL Scan
-    9)Xmas Scan
-    10)Custom Send Flags
-    11)Extra Categories
-    12)Commands
+1)Easy Scanning
+2)Version Scanning
+3)Agresive Scanning
+4)Only TCP Scanning
+5)Only UDP Scanning
+6)Vulnerability Scanning(CVE Searching)
+7)Traceroute
+8)TCP NULL Scan
+9)Xmas Scan
+10)Custom Send Flags
+11)Extra Categories
+12)Commands
 
-    easyvuln > """)
+easyvuln > """)
         
         if(a =="1"):
             target = input("Target Web Site | easyvuln > ")        
@@ -249,13 +249,13 @@ try:
     redhackaze.org | MyPoison                                                                                                 """)
         
                 b = input("""
-    1)Advanced Scan For Servers With Waf
-    2)Advanced Scripts
-    3)Only Scan on Top Ports
-    4)OS Service Detection
-    5)Dos Attack With Nmap(SlowLoris)
-    6)Malware Detecting On Server
-    easyvuln > """)
+1)Advanced Scan For Servers With Waf
+2)Advanced Scripts
+3)Only Scan on Top Ports
+4)OS Service Detection
+5)Dos Attack With Nmap(SlowLoris)
+6)Malware Detecting On Server
+easyvuln > """)
                 if(b == "1"):
                     if(b == "quit"):
                         quit(count)
@@ -282,16 +282,16 @@ try:
     ██║╚██╗██║██║╚██╔╝██║██╔══██║██╔═══╝     ██╔══╝  ██╔══██║╚════██║  ╚██╔╝      ╚██╗ ██╔╝  ██╔══╝  
     ██║ ╚████║██║ ╚═╝ ██║██║  ██║██║         ███████╗██║  ██║███████║   ██║        ╚████╔╝██╗██║     
     ╚═╝  ╚═══╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝         ╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝         ╚═══╝ ╚═╝╚═╝     
-    redhackaze.org | MyPoison                                                                                                 """)
+    redhackaze.org | MyPoison                                                                                                       """)
                             
                             inputs = input("""
-    1)Http Enum (Profesoniel Index Scanning)
-    2)Vulnscan (Advanced Detecting Vuln on Server)
-    3)Dns Brute (Subdomain Scanner)
-    4)Http Config (Dump Web Site Config)
-    5)HTTP Backup Finder
-    6)Attempts to get a list of tables from a MongoDB database
-    easyvuln > """)
+1)Http Enum (Profesoniel Index Scanning)
+2)Vulnscan (Advanced Detecting Vuln on Server)
+3)Dns Brute (Subdomain Scanner)
+4)Http Config (Dump Web Site Config)
+5)HTTP Backup Finder
+6)Attempts to get a list of tables from a MongoDB database
+easyvuln > """)
                             if inputs == "1":
                                 target = input("Target Web Site | easyvuln > ")
                                 if target == "quit":
@@ -456,16 +456,16 @@ try:
         elif a == "10":
             target = input("Target Web Site | easyvuln > ")
             flags = input("""
-    Select Flag(s)        
-    SYN = Synchronize
-    ACK = Acknowledgment
-    PSH = Push
-    URG = Urgent
-    RST = Reset
-    FIN = Finished
-    e.g. FIN
-    e.g SYFIN
-    easyvuln > """) 
+Select Flag(s)        
+SYN = Synchronize
+ACK = Acknowledgment
+PSH = Push
+URG = Urgent
+RST = Reset
+FIN = Finished
+e.g. FIN
+e.g SYFIN
+easyvuln > """) 
             if target == "quit":
                 quit(count)
             elif target == "home":
